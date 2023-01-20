@@ -7,11 +7,39 @@ body {
 body .preview-card {
   display: flex;
   position: absolute;
-  width: max-content;
-  height: max-content;
+  width: 38vw;
+  height: 57vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 body .preview-card .encadre-infos-product {
-  margin-right: auto;
-  max-width: 20vw;
+  width: 50%;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-family: Montserrat;
+  padding: 40px;
+}
+
+body .preview-card .encadre-infos-product .type-product {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+body .preview-card .encadre-infos-product .title-product {
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 1;
+  text-align: left;
+}
+
+body .preview-card .img-product {
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
