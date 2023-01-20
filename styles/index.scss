@@ -3,6 +3,38 @@ body {
     padding:0;
     background-color: hsl(30, 38%, 92%);
 
+    .challenge {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        margin-right: 20px;
+        color: black;
+        font-family: Montserrat;
+        font-weight: bold;
+
+        .lien-dev {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .creator {
+        color: black;
+        font-family: Montserrat;
+        margin: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 20px;
+        font-weight: bold;
+
+        .lien-dev {
+            text-decoration: none;
+            color: black;
+        }
+    }
+
 
     .preview-card {
         display: flex;
